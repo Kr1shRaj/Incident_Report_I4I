@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Incident pipeline: real reports and generated results stay local
+/reports/
+/output/
+/gold.csv

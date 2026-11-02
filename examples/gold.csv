@@ -1,0 +1,6 @@
+source_file,incident_id,incident_date,location,reported_by,people_involved,injury_severity,days_lost,cause_category
+IR-2025-001.md,IR-2025-001,2025-01-14,"Warehouse B, loading dock 3",Priya Nair,Tom Reyes; Ana Costa,lost_time,21,vehicle
+IR-2025-002.txt,IR-2025-002,2025-02-03,"Warehouse A, aisle 12",Marcus Webb,Liam Okafor,first_aid,,slip_trip_fall
+IR-2025-003.md,IR-2025-003,2025-02-21,"Warehouse B, returns area",Priya Nair,Jordan Lee,lost_time,4,manual_handling
+IR-2025-004.txt,IR-2025-004,2025-03-09,"Yard, gate 2",,,none,,vehicle
+IR-2025-005.docx,IR-2025-005,2025-03-18,"Warehouse A, conveyor line 2",Marcus Webb,Grace Mensah; Omar Haddad,lost_time,10,machinery

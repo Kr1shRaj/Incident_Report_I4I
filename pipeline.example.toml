@@ -1,0 +1,27 @@
+# Copy to pipeline.toml, edit, then run:  python -m incident_pipeline run --config pipeline.toml
+# Command-line flags override these values.
+
+topic = "warehouse workplace incident reports"   # used in the prompts
+
+reports_dir = "reports"
+output_dir  = "output"
+schema_file = "schema.json"   # the schema you reviewed
+gold_file   = "gold.csv"      # reports you filled in by hand
+
+# Step 1: parsing
+parser       = "unstructured"   # "unstructured", "docling" or "plain" (.txt/.md only)
+pdf_strategy = "hi_res"         # "fast" for text-only PDFs; "hi_res" keeps tables (slower)
+
+# Steps 2 and 4: the local model
+ollama_host = "http://localhost:11434"
+model       = "llama3.1:8b"     # or "qwen2.5:7b", "qwen2.5:14b" if you have ~10 GB VRAM
+num_ctx     = 16384             # context window; Ollama's default is far smaller
+temperature = 0.0
+seed        = 42
+max_retries = 2
+# think = false                 # uncomment for "thinking" models such as qwen3
+
+# Step 2: schema discovery
+sample_size = 6
+sample_seed = 13
+min_support = 0.5               # keep fields found in at least half the sample

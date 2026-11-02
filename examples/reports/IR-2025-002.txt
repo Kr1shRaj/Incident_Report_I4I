@@ -1,0 +1,20 @@
+INCIDENT REPORT
+Fictional example report for testing the pipeline.
+
+Report number: IR-2025-002
+Date of incident: 2025-02-03
+Location: Warehouse A, aisle 12
+Reported by: Marcus Webb (Health and Safety Officer)
+
+What happened
+Liam Okafor slipped on spilled hydraulic oil in aisle 12 and fell, bruising his hip and
+elbow. The oil had leaked from reach truck RT-02 overnight and had not been cleaned up.
+First aid was given on site with an ice pack. Liam returned to work the same shift.
+
+Root cause
+A leaking hydraulic hose on reach truck RT-02 and no start-of-shift floor inspection.
+
+Actions recommended
+1. Replace the hydraulic hose on RT-02 and check the other reach trucks.
+2. Add a floor inspection to the start-of-shift checklist.
+3. Place spill kits at the end of every aisle.

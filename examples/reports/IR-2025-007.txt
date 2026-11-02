@@ -1,0 +1,20 @@
+INCIDENT REPORT
+Fictional example report for testing the pipeline.
+
+Report number: IR-2025-007
+Date of incident: 2025-04-17
+Location: Warehouse B, mezzanine
+Reported by: Priya Nair
+
+What happened
+A box cutter blade broke while Elena Ruiz was opening shrink-wrapped stock on the
+mezzanine. A fragment cut her left hand. A colleague, Ben Carter, applied a dressing.
+She needed three stitches at hospital and returned to work the following week after
+3 days off.
+
+Root cause
+Worn, non-retractable box cutters in use; safety cutters had run out.
+
+Actions recommended
+1. Replace all box cutters with self-retracting safety cutters.
+2. Set a minimum stock level for safety cutters.

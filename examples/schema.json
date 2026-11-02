@@ -1,0 +1,16 @@
+{
+  "topic": "warehouse workplace incident reports",
+  "fields": [
+    {"name": "incident_id", "type": "string", "description": "Report reference number, e.g. IR-2025-001"},
+    {"name": "incident_date", "type": "date", "description": "Date the incident happened"},
+    {"name": "location", "type": "string", "description": "Site and sub-location where the incident happened"},
+    {"name": "reported_by", "type": "string", "description": "Name of the person who wrote the report"},
+    {"name": "people_involved", "type": "list_of_strings", "description": "Names of the people injured or directly involved"},
+    {"name": "injury_severity", "type": "category", "options": ["none", "first_aid", "medical_treatment", "lost_time", "fatality"], "description": "Worst injury outcome: none, first aid only, medical treatment without lost days, lost working days, or fatality"},
+    {"name": "days_lost", "type": "integer", "description": "Number of working days lost because of injury"},
+    {"name": "equipment_involved", "type": "list_of_strings", "description": "Vehicles, machines or tools involved, with their IDs if given"},
+    {"name": "cause_category", "type": "category", "options": ["slip_trip_fall", "struck_by_object", "vehicle", "machinery", "manual_handling", "chemical", "cut"], "description": "Main type of cause"},
+    {"name": "cause_description", "type": "string", "description": "What caused the incident, in one or two sentences"},
+    {"name": "recommendations", "type": "list_of_strings", "description": "Corrective actions recommended in the report"}
+  ]
+}

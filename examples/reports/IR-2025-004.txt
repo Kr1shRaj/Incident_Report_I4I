@@ -1,0 +1,13 @@
+INCIDENT REPORT  (fictional example report for testing the pipeline)
+
+Ref: IR-2025-004
+Date: 9 March 2025
+Place: Yard, gate 2
+
+During a delivery, a lorry driven by an agency driver clipped the gate barrier while
+turning. The barrier arm snapped. Nobody was hurt. Gate 2 was closed for two hours
+while the arm was replaced.
+
+Cause: The turning space at gate 2 is too narrow for articulated lorries.
+
+Recommendation: Direct articulated lorries to gate 1 until gate 2 is widened.
